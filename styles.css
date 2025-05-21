@@ -76,6 +76,94 @@ nav {
 
 
 .hero {
-    background: #ff690050;
+    background: #ff690030;
     height: 70vh;
+}
+
+.hero {
+    justify-content: space-between;
+    display: flex;
+    
+    padding: 5vh 10vw;
+
+    .hero-text{
+        justify-content: center;
+        flex-direction: column;
+        width: max-content;
+        display: flex;
+
+        h1 {
+            text-align: justify;
+
+            font-size: 3cqw;
+            line-height: 1;
+
+            span {
+                color: #ff6900;
+            }
+        }
+        h2 {
+            width: max-content;
+
+            color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+            font-size: 1.5cqw;
+            font-weight: 300;
+            margin: 2cqh 0;
+        }
+        p {
+            margin: 2cqh 0;
+            width: 80%;
+        }
+
+        .button-con {
+            width: max-content;
+            display: flex;
+            gap: 1cqw;
+
+            button {
+                padding: 1.5cqh 1.5cqw;
+                border-radius: 10px;
+                margin: 3cqh 0;
+                font-weight: 600;
+
+                border: transparent;
+            }
+            
+            #view {
+                background-color: #ff6900;
+                color: #101011;
+            }
+            
+            #view:hover {
+                background-color: #df6106;
+            }
+
+            #contact {
+                background-color: transparent;
+                border: 2px solid #ff6900;
+                color: #ff6900;
+            }
+            
+            #contact:hover {
+                background-color: #df6106;
+                border: 2px solid #df6106;
+                color: white;
+            }
+
+        }
+    }
+}
+
+.avatar-con {
+    justify-content: center;
+    flex-direction: column;
+    width: max-content;
+    display: flex;
+    
+    height: 100%;
+
+    img {
+        border-radius: 100%;
+        width: 30vw;
+    }
 }
