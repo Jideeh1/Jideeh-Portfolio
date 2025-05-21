@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Main";
+    src: url(Assets/fonts/main.ttf);
+}
+
+@keyframes exitLeft {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+}
